@@ -1,0 +1,152 @@
+{
+   "features" : [
+      {
+         "attributes" : {
+            "COUNCILLOR" : "Matthew Luloff",
+            "DIVISION" : "East",
+            "NB_NAME_EN" : "Orléans Queenswood Heights",
+            "OBJECTID" : 18,
+            "OCC_DATE" : 1664946000000,
+            "OFF_CATEG" : "Homicide-2Nd Degree Murder",
+            "REP_DATE" : 1664946000000,
+            "SECTOR" : "31",
+            "WARD" : "Ward 1 - Orléans East-Cumberland",
+            "WEEKDAY" : "Wednesday",
+            "YEAR" : 2022
+         },
+         "geometry" : {
+            "x" : -75.4990472069213,
+            "y" : 45.4769508288141
+         }
+      },
+      {
+         "attributes" : {
+            "COUNCILLOR" : "Matthew Luloff",
+            "DIVISION" : "East",
+            "NB_NAME_EN" : "Orléans Queenswood Heights",
+            "OBJECTID" : 19,
+            "OCC_DATE" : 1664946000000,
+            "OFF_CATEG" : "Homicide-2Nd Degree Murder",
+            "REP_DATE" : 1664946000000,
+            "SECTOR" : "31",
+            "WARD" : "Ward 1 - Orléans East-Cumberland",
+            "WEEKDAY" : "Wednesday",
+            "YEAR" : 2022
+         },
+         "geometry" : {
+            "x" : -75.4990472069213,
+            "y" : 45.4769508288141
+         }
+      }
+   ],
+   "fields" : [
+      {
+         "alias" : "OBJECTID",
+         "defaultValue" : null,
+         "domain" : null,
+         "name" : "OBJECTID",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeOID"
+      },
+      {
+         "alias" : "Year",
+         "defaultValue" : null,
+         "domain" : null,
+         "name" : "YEAR",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeSmallInteger"
+      },
+      {
+         "alias" : "Reported Date",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 8,
+         "name" : "REP_DATE",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeDate"
+      },
+      {
+         "alias" : "Occurred Date",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 8,
+         "name" : "OCC_DATE",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeDate"
+      },
+      {
+         "alias" : "Weekday",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 50,
+         "name" : "WEEKDAY",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeString"
+      },
+      {
+         "alias" : "Offence Category",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 255,
+         "name" : "OFF_CATEG",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeString"
+      },
+      {
+         "alias" : "Sector",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 50,
+         "name" : "SECTOR",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeString"
+      },
+      {
+         "alias" : "Division",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 50,
+         "name" : "DIVISION",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeString"
+      },
+      {
+         "alias" : "Neighbourhood",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 255,
+         "name" : "NB_NAME_EN",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeString"
+      },
+      {
+         "alias" : "Ward",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 255,
+         "name" : "WARD",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeString"
+      },
+      {
+         "alias" : "Councillor",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 255,
+         "name" : "COUNCILLOR",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeString"
+      }
+   ],
+   "geometryType" : "esriGeometryPoint",
+   "globalIdFieldName" : "",
+   "objectIdFieldName" : "OBJECTID",
+   "spatialReference" : {
+      "latestWkid" : 4326,
+      "wkid" : 4326
+   },
+   "uniqueIdField" : {
+      "isSystemMaintained" : true,
+      "name" : "OBJECTID"
+   }
+}

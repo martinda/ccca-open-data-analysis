@@ -71,12 +71,18 @@ boolean isInCC2(def poly, def point) {
   return c;
 }
 
+
 [2018, 2019, 2020, 2021, 2022, 2023, 2024].each { year ->
     byYear = object.features.findAll {
-        it.attributes.YEAR == year && isInCC(ccPoly, it.geometry)
+        it.attributes.YEAR == year && (it?.geometry ? isInCC(ccPoly, it.geometry) : true)
     }
-    byYear2 = object.features.findAll {
-        it.attributes.YEAR == year && isInCC2(ccPoly, it.geometry)
+    //byYear2 = object.features.findAll {
+    //    it.attributes.YEAR == year && isInCC2(ccPoly, it.geometry)
+    //}
+    print("${year}: ${byYear.size()}")
+    if (object.features[0]?.geometry == null) {
+        println(" (No geolocation provided, printing for whole database)")
+    } else {
+        println()
     }
-    println("${year}: ${byYear.size()} ${byYear2.size()}")
 }

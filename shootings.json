@@ -1,0 +1,277 @@
+{
+   "features" : [
+      {
+         "attributes" : {
+            "CENSUS_TRC" : "5050170.10",
+            "COUNCILLOR" : "Matthew Luloff",
+            "DIVISION" : "East",
+            "DOW" : 7,
+            "ID" : "12321",
+            "LVL_INJURY" : "MINOR",
+            "NB_NAME_EN" : "Orléans Avalon - Notting Gate - Fallingbrook - Gardenway South",
+            "OBJECTID" : 78,
+            "OCC_DATE" : 1569733200000,
+            "OCC_HOUR" : 2000,
+            "OCC_YEAR" : 2019,
+            "REP_DATE" : 1569733200000,
+            "REP_HOUR" : 200,
+            "REP_YEAR" : 2019,
+            "SECTOR" : "31",
+            "TOD" : "Evening",
+            "WARD_EN" : "Ward 1 - Orléans East-Cumberland",
+            "WEEKDAY" : "Sunday"
+         },
+         "geometry" : {
+            "x" : -75.4961183046493,
+            "y" : 45.4798226550728
+         }
+      },
+      {
+         "attributes" : {
+            "CENSUS_TRC" : "5050170.09",
+            "COUNCILLOR" : "Matthew Luloff",
+            "DIVISION" : "East",
+            "DOW" : 6,
+            "ID" : "12061",
+            "LVL_INJURY" : null,
+            "NB_NAME_EN" : "Orléans Avalon - Notting Gate - Fallingbrook - Gardenway South",
+            "OBJECTID" : 79,
+            "OCC_DATE" : 1622264400000,
+            "OCC_HOUR" : 500,
+            "OCC_YEAR" : 2021,
+            "REP_DATE" : 1622264400000,
+            "REP_HOUR" : 500,
+            "REP_YEAR" : 2021,
+            "SECTOR" : "31",
+            "TOD" : "Night",
+            "WARD_EN" : "Ward 1 - Orléans East-Cumberland",
+            "WEEKDAY" : "Saturday"
+         },
+         "geometry" : {
+            "x" : -75.495421914072,
+            "y" : 45.4751012777156
+         }
+      },
+      {
+         "attributes" : {
+            "CENSUS_TRC" : "5050170.09",
+            "COUNCILLOR" : "Matthew Luloff",
+            "DIVISION" : "East",
+            "DOW" : 3,
+            "ID" : "12061",
+            "LVL_INJURY" : null,
+            "NB_NAME_EN" : "Orléans Avalon - Notting Gate - Fallingbrook - Gardenway South",
+            "OBJECTID" : 80,
+            "OCC_DATE" : 1649221200000,
+            "OCC_HOUR" : null,
+            "OCC_YEAR" : 2022,
+            "REP_DATE" : 1649221200000,
+            "REP_HOUR" : 900,
+            "REP_YEAR" : 2022,
+            "SECTOR" : "31",
+            "TOD" : null,
+            "WARD_EN" : "Ward 1 - Orléans East-Cumberland",
+            "WEEKDAY" : "Wednesday"
+         },
+         "geometry" : {
+            "x" : -75.495421914072,
+            "y" : 45.4751012777156
+         }
+      },
+      {
+         "attributes" : {
+            "CENSUS_TRC" : "5050171.07",
+            "COUNCILLOR" : "Catherine Kitts",
+            "DIVISION" : "East",
+            "DOW" : 1,
+            "ID" : "115",
+            "LVL_INJURY" : null,
+            "NB_NAME_EN" : "Orléans Avalon - Notting Gate - Fallingbrook - Gardenway South",
+            "OBJECTID" : 180,
+            "OCC_DATE" : 1682312400000,
+            "OCC_HOUR" : 1900,
+            "OCC_YEAR" : 2023,
+            "REP_DATE" : 1682312400000,
+            "REP_HOUR" : 1900,
+            "REP_YEAR" : 2023,
+            "SECTOR" : "31",
+            "TOD" : "Evening",
+            "WARD_EN" : "Ward 19 - Orléans South-Navan",
+            "WEEKDAY" : "Monday"
+         },
+         "geometry" : {
+            "x" : -75.4626132641284,
+            "y" : 45.4659363484373
+         }
+      }
+   ],
+   "fields" : [
+      {
+         "alias" : "OBJECTID",
+         "defaultValue" : null,
+         "domain" : null,
+         "name" : "OBJECTID",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeOID"
+      },
+      {
+         "alias" : "ID",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 50,
+         "name" : "ID",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeString"
+      },
+      {
+         "alias" : "Reported Date",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 8,
+         "name" : "REP_DATE",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeDate"
+      },
+      {
+         "alias" : "Reported Hour",
+         "defaultValue" : null,
+         "domain" : null,
+         "name" : "REP_HOUR",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeInteger"
+      },
+      {
+         "alias" : "Reported Year",
+         "defaultValue" : null,
+         "domain" : null,
+         "name" : "REP_YEAR",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeInteger"
+      },
+      {
+         "alias" : "Occurred Date",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 8,
+         "name" : "OCC_DATE",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeDate"
+      },
+      {
+         "alias" : "Occurred Hour",
+         "defaultValue" : null,
+         "domain" : null,
+         "name" : "OCC_HOUR",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeInteger"
+      },
+      {
+         "alias" : "Occurred Year",
+         "defaultValue" : null,
+         "domain" : null,
+         "name" : "OCC_YEAR",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeInteger"
+      },
+      {
+         "alias" : "Time of Day",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 50,
+         "name" : "TOD",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeString"
+      },
+      {
+         "alias" : "Weekday",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 50,
+         "name" : "WEEKDAY",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeString"
+      },
+      {
+         "alias" : "Day of Week",
+         "defaultValue" : null,
+         "domain" : null,
+         "name" : "DOW",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeInteger"
+      },
+      {
+         "alias" : "Neighbourhood",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 255,
+         "name" : "NB_NAME_EN",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeString"
+      },
+      {
+         "alias" : "Sector",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 50,
+         "name" : "SECTOR",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeString"
+      },
+      {
+         "alias" : "Division",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 50,
+         "name" : "DIVISION",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeString"
+      },
+      {
+         "alias" : "Ward",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 255,
+         "name" : "WARD_EN",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeString"
+      },
+      {
+         "alias" : "Councillor",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 255,
+         "name" : "COUNCILLOR",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeString"
+      },
+      {
+         "alias" : "Census Tract",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 50,
+         "name" : "CENSUS_TRC",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeString"
+      },
+      {
+         "alias" : "Level of Injury",
+         "defaultValue" : null,
+         "domain" : null,
+         "length" : 256,
+         "name" : "LVL_INJURY",
+         "sqlType" : "sqlTypeOther",
+         "type" : "esriFieldTypeString"
+      }
+   ],
+   "geometryType" : "esriGeometryPoint",
+   "globalIdFieldName" : "",
+   "objectIdFieldName" : "OBJECTID",
+   "spatialReference" : {
+      "latestWkid" : 4326,
+      "wkid" : 4326
+   },
+   "uniqueIdField" : {
+      "isSystemMaintained" : true,
+      "name" : "OBJECTID"
+   }
+}
